@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-const TexthtmlForm = ({showAlert,heading}) => {
+const TexthtmlForm = ({showAlert,heading,mode}) => {
 
   const [text, settext] = useState('');
   const onChange=(e)=>{
